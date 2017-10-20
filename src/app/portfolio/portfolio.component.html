@@ -1,3 +1,135 @@
-<p>
-  portfolio works!
-</p>
+<!-- start of portfolio container -->
+<div class="container-fluid">
+  <div class="row" id="portfolio">
+    <!-- start of carousel slideshow -->
+    <div id="slideshow" class="carousel slide col-lg-6" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+        <li data-target="#slideshow" data-slide-to="1"></li>
+        <li data-target="#slideshow" data-slide-to="2"></li>
+      </ol>
+      <!-- end of indicators -->
+      <!-- images -->
+      <div class="carousel-inner">
+        <div class="item main_img1 active">
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="item main_img2">
+          <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="item main_img3">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <!-- end of images -->
+      <!-- carousel interface - arrows -->
+      <a class="left carousel-control" href="#slideshow" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#slideshow" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- end of interface -->
+    </div>
+    <!-- end of carousel div -->
+    <!-- end of carousel slideshow -->
+    <!-- start of porfolio -->
+    <div class="col-lg-6" id="portfolio-tabs">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="primary-font white-text">Portfolio</h1>
+            <div>
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs nav-justified text-uppercase" role="tablist">
+                <li role="presentation" class="active">
+                  <a href="#front-end" aria-controls="front-end" role="tab" data-toggle="tab">Front End</a>
+                </li>
+                <li role="presentation">
+                  <a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a>
+                </li>
+                <li role="presentation">
+                  <a href="#photography" aria-controls="photography" role="tab" data-toggle="tab">Photography</a>
+                </li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <!-- front end tab starts -->
+                <div role="tabpanel" class="tab-pane fade in active" id="front-end">
+                  <div class="col-xs-6 portfolio-item">
+                    <!-- example 1 starts -->
+                    <img src="../../assets/img/frontend1.PNG" alt="Restaurante Site" class="img-responsive img-thumbnail">
+                    <h3>Restaurante</h3>
+                    <p class="text-justify">In-class website</p>
+                    <!-- example 1 ends -->
+                  </div>
+                  <div class="col-xs-6 portfolio-item">
+                    <!-- example 2 starts -->
+                    <img src="../../assets/img/frontend2.PNG" alt="Pet Store" class="img-responsive img-thumbnail">
+                    <h3>Pet Store</h3>
+                    <p class="text-justify">In-class website</p>
+                    <!-- example 2 ends -->
+                  </div>
+                </div>
+                <!-- end of tabpanel -->
+                <!-- design panel starts -->
+                <div role="tabpanel" class="tab-pane fade" id="design">
+                  <!-- design tab starts -->
+                  <div class=" col-xs-6 portfolio-item">
+                    <!-- example 1 starts -->
+                    <img src="../../assets/img/vtownmockup.png" alt="Vtown" class="img-responsive img-thumbnail">
+                    <h3>Design 1</h3>
+                    <p class="text-justify">Design for VTown Derby Dames.</p>
+                    <!-- example 1 ends -->
+                  </div>
+                  <!-- design tab ends -->
+                </div>
+                <!-- design panel ends -->
+                <div role="tabpanel" class="tab-pane fade" id="photography">
+                  <!-- photography panel starts -->
+                  <div class="col-xs-6 portfolio-item">
+                    <!-- picture 1 starts -->
+                    <img src="../../assets/img/portfolio1.jpg" alt="" class="img-responsive img-thumbnail">
+                    <!-- picture 1 ends -->
+                  </div>
+                  <div class="col-xs-6 portfolio-item">
+                    <!-- picture2 starts -->
+                    <img src="../../assets/img/portfolio2.jpg" alt="" class="img-responsive img-thumbnail">
+                    <!-- picture 2 ends -->
+                  </div>
+                  <div class="col-xs-6 portfolio-item">
+                    <!-- picture 3 starts -->
+                    <img src="../../assets/img/portfolio3.jpg" alt="" class="img-responsive img-thumbnail">
+                    <!-- picture 3 ends -->
+                  </div>
+                  <div class="col-xs-6 portfolio-item">
+                    <!-- picture 4 starts -->
+                    <img src="../../assets/img/portfolio4.jpg" alt="" class="img-responsive img-thumbnail">
+                    <!-- picture 4 ends -->
+                  </div>
+                  <!-- image panel ends -->
+                </div>
+                <!-- tab panel ends -->
+              </div>
+              <!-- end of tab-content -->
+              <!-- front-end panel ends -->
+            </div>
+            <!-- giant ass random div ends here -->
+          </div>
+          <!-- col-sm-6 ends here -->
+        </div>
+        <!-- row ends -->
+      </div>
+      <!-- portfolio container-fluid ends-->
+    </div>
+    <!-- menu id ends here -->
+  </div>
+  <!-- portfolio row ends here -->
+</div>
+<!-- entire container fluid ends here -->
+<!-- end of portfolio -->
