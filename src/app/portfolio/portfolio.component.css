@@ -1,0 +1,28 @@
+/* start of portfolio css*/
+/* carousel css */
+.carousel {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  width: 600px;
+}
+
+.carousel-inner .item {
+    height: 400px;
+    background-size: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main_img1 {
+    background-image: url('../../assets/img/slide1.png');
+}
+.main_img2 {
+    background-image: url('../../assets/img/slide2.jpg');
+}
+.main_img3 {
+    background-image: url('../../assets/img/slide3.jpg');
+}
+/* end of slideshow styles*/
+/* start of tab/panel styles*/
+
+/*end of tab/panel styles*/
+/*end of portfolio css*/
